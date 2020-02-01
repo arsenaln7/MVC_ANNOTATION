@@ -1,4 +1,4 @@
-package com.springbook.view.board;
+/*package com.springbook.view.board;
 
 import java.util.List;
 
@@ -25,14 +25,14 @@ public class GetBoardListController{
 		
 		//1. 사용자 입력 정보 추출(검색 기능은 나중에 구현)
 		//2. DB 연동 처리
-		/*BoardVO vo = new BoardVO();
+		BoardVO vo = new BoardVO();
 		BoardDAO boardDAO = new BoardDAO();
-		List<BoardVO> boardList = boardDAO.getBoardList(vo);*/
+		List<BoardVO> boardList = boardDAO.getBoardList(vo);
 		
 		//3. 결과를 세션에 저장하고, 저장목록화면을 리턴한다.
-		/*HttpSession session = request.getSession();
+		HttpSession session = request.getSession();
 		session.setAttribute("boardList", boardList);
-		return "getBoardList";*/
+		return "getBoardList";
 		
 //		ModelAndView mav = new ModelAndView();
 		mav.addObject("boardList",boardDAO.getBoardList(vo));
@@ -42,3 +42,4 @@ public class GetBoardListController{
 	}
  
 }
+*/

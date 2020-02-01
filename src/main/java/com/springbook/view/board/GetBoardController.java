@@ -1,4 +1,4 @@
-package com.springbook.view.board;
+/*package com.springbook.view.board;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -31,9 +31,9 @@ public class GetBoardController  {
 	//	BoardVO board = boardDAO.getBoard(vo);
 
 		// 3. 검색 결과를 세션에 저장하고 상세 화면을 리턴
-		/*HttpSession session = request.getSession();
+		HttpSession session = request.getSession();
 		session.setAttribute("board", board);
-		return "getBoard";*/
+		return "getBoard";
 		
 		//3. 검색 결과와 화면 정보를 ModelAndView에 저장하여 리턴한다.
 	//	ModelAndView mav = new ModelAndView();
@@ -45,3 +45,4 @@ public class GetBoardController  {
 	}
 
 }
+*/

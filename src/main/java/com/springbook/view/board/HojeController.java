@@ -1,4 +1,4 @@
-package com.springbook.view.board;
+/*package com.springbook.view.board;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,3 +11,4 @@ public class HojeController {
 		return "redirect:getb.jsp";
 	}
 }
+*/

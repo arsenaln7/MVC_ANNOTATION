@@ -1,4 +1,4 @@
-package com.springbook.view.board;
+/*package com.springbook.view.board;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -30,7 +30,7 @@ public class DeleteBoardController {
 		boardDAO.deleteBoard(vo);
 		
 		//3. 화면 네비게이션
-		/*return "getBoardList.do";*/
+		return "getBoardList.do";
 //		ModelAndView mav = new ModelAndView();
 //		mav.setViewName("getBoardList.do");
 //		mav.setViewName("redirect:getBoardList.do");
@@ -39,3 +39,4 @@ public class DeleteBoardController {
 	}
 
 }
+*/
